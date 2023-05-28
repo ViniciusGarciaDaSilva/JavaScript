@@ -22,9 +22,12 @@
     <h1>Olá, mundo!</h1>
     <p>Já me livrei da maldição</p>
     <script>
-        window.alert('Olá, mundo!')
-        window.confirm('Está gostandod e JS?')
-        window.prompt('Qual é seu nome?')
+        var n1 = Number(window.prompt('digite um numero'))  // Number converte a string para um numero inteiro
+        var n2 = Number(window.prompt('Digite outro numero')) // Number converte a string para um numero inteiro
+        var s = n1 + n2
+        window.alert(`a soma entre ${n1} e ${n2} é igual a ${s}`)  //concatenação
+        // (number + number) para adição
+        // (string + string) para concatenação
     </script>
 </body>
 </html>
